@@ -1,5 +1,5 @@
 /*
- * iors_log.c
+ * pacsat_log.c
  *
  *  Created on: Jun 2, 2024
  *      Author: g0kla
@@ -43,7 +43,7 @@ static char *log_name_str[] = {
 	,"err"
 };
 
-/* This MUST match the enums for events in iors_log.h */
+/* This MUST match the enums for events in pacsat_log.h */
 //static char *event_text[] = {
 //	" ",
 //	"STARTUP",
@@ -68,7 +68,7 @@ static char *log_name_str[] = {
 //	"UL DONE",
 //	"DIR DONE",
 //	"SEL DONE",
-//	"IORS_ERR"
+//	"OTHER_ERR"
 //	};
 
 /* Forward declarations */

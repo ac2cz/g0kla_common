@@ -1,5 +1,5 @@
 /*
- * iors_log.h
+ * pacsat_log.h
  *
  *  Created on: Jun 2, 2024
  *      Author: g0kla
@@ -31,7 +31,7 @@ enum LOG_NAME {
 };
 
 
-/* If this is updated then LOG TEXT should be updated in iors_log.c */
+/* If this is updated then LOG TEXT should be updated in pacsat_log.c */
 enum LOG_EVENT {
 	/* Initial event numbers are historical to match the PACSAT ALOG events */
      ALOG_STARTUP = 1		/* startup */

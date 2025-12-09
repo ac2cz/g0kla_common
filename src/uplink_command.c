@@ -1,5 +1,5 @@
 /*
- * iors_command.c
+ * uplink_command.c
  *
  *  Created on: Nov 27, 2023
  *      Author: g0kla
@@ -16,7 +16,7 @@
 
 
 /* This defines the folder names that can be referenced in commands using the ids in FolderIds
- * IMPORTANT - Must also change the enum in iors_command.h that corresponds to this */
+ * IMPORTANT - Must also change the enum in uplink_command.h that corresponds to this */
 char *FolderIdStrings[] = {
 		"bin"
 		,"lib"
@@ -38,7 +38,7 @@ char *FolderIdStrings[] = {
 		,"data9"
 };
 
-/* This gives user understandable names for the name spaces.  These are used in the schedule. It must match the enum in iors_command.h */
+/* This gives user understandable names for the name spaces.  These are used in the schedule. It must match the enum in uplink_command.h */
 char *NameSpaceStrings[] = {
 		"-"
 		,"ops"

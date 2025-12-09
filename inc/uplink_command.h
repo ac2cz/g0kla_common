@@ -1,5 +1,5 @@
 /*
- * iors_command.h
+ * uplink_command.h
  *
  *  Created on: Nov 27, 2023
  *      Author: g0kla
@@ -73,7 +73,7 @@ typedef enum {
 
 
 /* These are the default writable folders on the USB Stick.  The strings are defined in
- * iors_command.c in a static array FolderIdStrings */
+ * uplink_command.c in a static array FolderIdStrings */
 typedef enum {
 	FolderBin
 	,FolderLib
@@ -97,7 +97,7 @@ typedef enum {
 } FolderIds;
 
 
-/* These ids are a lookup for the symbolrate strings.  If this is changed then edit the array in iors_control.c */
+/* These ids are a lookup for the symbolrate strings.  If this is changed then edit the array in uplink_control.c */
 typedef enum {
 	Rate1200 = 0
 	,Rate9600
