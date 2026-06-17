@@ -67,6 +67,7 @@ typedef enum {
 	,SWCmdPacsatFileQueueCheckPeriod = 10         // in seconds - Check all the queues for files to add to the dir
 	,SWCmdPacsatMaxFileSize				// Set the max upload file size in kb
 	,SWCmdPacsatMaxUploadAge			// Set the max age for a file being uploaded.  After this time it is removed from upload queue
+	,SwCmdPacsatExecuteFile             // Run the file as though it is a script or executable.  If it is not in bin, extract it.
 	,SwCmdPacsatNumberOfCommands
 }SWPacsatCommands;
 
